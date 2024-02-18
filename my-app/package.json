@@ -9,6 +9,8 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.2",
+    "country-flag-icons": "^1.5.9",
+    "currency-map-symbol": "^4.0.5",
     "or": "^0.2.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.9.2",
@@ -19,6 +21,7 @@
     "react-slick": "^0.29.0",
     "react-stacked-center-carousel": "^1.0.13",
     "redux": "^5.0.1",
+    "redux-form": "^8.3.10",
     "redux-thunk": "^3.1.0",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"

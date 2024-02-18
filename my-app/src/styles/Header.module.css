@@ -1,16 +1,62 @@
 header {
     max-width: 100%;
-    margin: 1% 0;
+    margin-bottom: 1%;
 }
 
-.headerContainer {
-    width: 80%;
+.headerSubContent{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+    padding: 1em 5%;
+    background-color: #1a1a1a;
+    margin-bottom: 20px;
+}
+
+.headerSubContent_ToLeft{
+    display: inline-grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 20px;
+}
+
+.serviceButton{
+    display: inline-grid;
+    grid-template-columns: repeat(3, auto);
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    gap: 10px;
+    color: #fff;
+}
+
+
+
+.serviceButton_Flag{
+    width: 20px;
+}
+
+.serviceButton:hover{
+    color: rgb(255 188 11);
+}
+
+.headerSubContent_ToRight{
+    display: inline-grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 20px;
+}
+
+.headerSubContent_ToRight a{
+    text-decoration: none;
+}
+
+.headerContent {
+    display: grid;
+    gap: 2%;
     align-items: center;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
-    display: grid;
-    gap: 2%;
-    margin: 0 auto;
 }
 
 .logoContainer {
@@ -66,11 +112,6 @@ header {
 }
 
 @media screen and (max-width:900px) {
-    header {
-        max-width: 100%;
-        margin: 3% 0;
-    }
-
     .headerContainer {
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: 1fr;

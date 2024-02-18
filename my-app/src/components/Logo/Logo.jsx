@@ -1,6 +1,6 @@
 // components/Header/Logo.js
 import React from 'react';
-import logo from '../../assets/images/logo.png';
+import logo from '../../assets/images/HomePage/logo.png';
 import styles from '../../styles/Header.module.css';
 
 const Logo = () => {
